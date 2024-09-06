@@ -1,0 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: content-box;
+	font-family: 'Corbel';
+}
+@font-face {
+	font-family: 'Corbel';
+	src: url(corbel.ttf);
+}
