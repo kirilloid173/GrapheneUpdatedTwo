@@ -72,9 +72,11 @@ function confirm_edit(element){
 }
 
 function edit_task(element){
+	if(JSON.parse(localStorage.getItem('items').length !== 2)){
 	document.getElementById("p_block_posts_" + element).style.display = "none";
 	document.getElementById("input_edit_block_posts_" + element).style.display = "inline";
 	document.getElementById("edit_block_posts_" + element).style.display = "inline";
+	}
 }
 
 function close(number){
